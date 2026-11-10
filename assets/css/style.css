@@ -117,9 +117,9 @@ h3 { font-size: 1.25rem; line-height: 1.25; }
 .hero__badge { width: 150px; }
 
 /* PERCORSO */
-.path { padding: 56px 0; background: var(--red); }
+.path { padding: 56px 0; background: var(--tint); }
 .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-.steps li { display: flex; gap: 16px; padding: 22px; background: #fff; border-radius: var(--r); }
+.steps li { display: flex; gap: 16px; padding: 22px; background: #fff; border-radius: var(--r); border: 1px solid var(--line); }
 .steps li > span { flex: none; width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; font-weight: 700; font-size: 1.1rem; color: #fff; background: var(--navy); }
 .steps li:nth-child(3) > span { background: var(--red); }
 .steps b { color: var(--navy); font-size: 1.1rem; }
