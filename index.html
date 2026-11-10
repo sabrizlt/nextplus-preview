@@ -8,7 +8,7 @@
   <meta name="description" content="Corsi di inglese per ragazzi e adulti a Ragusa: livelli base, intermedio e avanzato, preparazione agli esami Cambridge, lezioni individuali e corsi aziendali.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -70,26 +70,38 @@
 
     <!-- HERO -->
     <section class="hero" data-title="Next Plus">
+      <div class="hero__flag" aria-hidden="true"></div>
       <div class="wrap hero__grid">
         <div class="hero__copy">
-          <p class="eyebrow"><img src="assets/img/cambridge.png" alt="" width="70"> Centro autorizzato Cambridge · Ragusa</p>
-          <h1>Porta il tuo inglese al <span class="red">livello successivo.</span></h1>
-          <p class="lead">Corsi di inglese per ragazzi e adulti con insegnanti madrelingua: dai primi passi fino agli esami Cambridge, in gruppo, da soli o in azienda.</p>
-          <div class="hero__cta">
-            <a href="#percorso" class="btn btn--red">Trova il tuo corso</a>
-            <a href="https://forms.gle/g5triKcy4Pm3gtR77" target="_blank" rel="noopener" class="btn btn--ghost">Fai il test in 10 domande</a>
+          <p class="eyebrow"><span class="eyebrow__line"></span>Scuola di inglese a Ragusa · Centro autorizzato Cambridge</p>
+          <h1>Il tuo inglese,<br><em>al livello successivo.</em></h1>
+          <p class="lead">Insegnanti madrelingua, piccoli gruppi e un metodo che ti porta fino agli esami Cambridge. Per ragazzi, adulti e aziende.</p>
+
+          <div class="goal" role="group" aria-labelledby="goal-label">
+            <p id="goal-label" class="goal__label">Qual è il tuo obiettivo?</p>
+            <div class="goal__chips">
+              <a href="#gruppo" class="chip">Partire da zero</a>
+              <a href="#gruppo" class="chip">Migliorare il mio inglese</a>
+              <a href="#cambridge" class="chip">Prendere una certificazione</a>
+              <a href="#su-misura" class="chip">Inglese per lavoro</a>
+            </div>
           </div>
-          <ul class="facts">
-            <li><b>A2 → C2</b><span>tutti i livelli Cambridge</span></li>
-            <li><b>Madrelingua</b><span>insegnanti</span></li>
-            <li><b>Libro</b><span>sempre incluso</span></li>
+
+          <div class="hero__cta">
+            <a href="https://forms.gle/g5triKcy4Pm3gtR77" target="_blank" rel="noopener" class="btn btn--blue">Scopri il tuo livello · test gratuito</a>
+            <a href="#contatti" class="btn btn--ghost">Richiedi informazioni</a>
+          </div>
+        </div>
+
+        <aside class="hero__card">
+          <div class="roundel roundel--xl" data-ring="red" data-bar="navy" aria-hidden="true"><i></i><b>Next Plus</b></div>
+          <ul class="hero__facts">
+            <li><b>A2 → C2</b><span>Tutti i livelli Cambridge</span></li>
+            <li><b>Madrelingua</b><span>Inglese vero dalla prima lezione</span></li>
+            <li><b>Libro incluso</b><span>In tutti i corsi di gruppo</span></li>
           </ul>
-        </div>
-        <div class="hero__covers" aria-hidden="true">
-          <div class="cover cover--navy c1"><span class="cover__top">Next Plus · Corso di gruppo</span><b>B1</b><span class="cover__name">Intermedio</span><i class="cover__bars"></i></div>
-          <div class="cover cover--red c2"><span class="cover__top">Cambridge English</span><b>B2</b><span class="cover__name">First</span><i class="cover__bars"></i></div>
-          <div class="cover cover--blue c3"><span class="cover__top">Next Plus · Su misura</span><b>1:1</b><span class="cover__name">Individuale</span><i class="cover__bars"></i></div>
-        </div>
+          <img src="assets/img/cambridge.png" alt="We prepare for Cambridge English Qualifications" class="hero__badge" width="150">
+        </aside>
       </div>
     </section>
 
@@ -114,21 +126,21 @@
         </header>
         <div class="shelf">
           <article class="item">
-            <div class="cover cover--navy"><span class="cover__top">Corso di gruppo</span><b>A1</b><span class="cover__name">Base</span><i class="cover__bars"></i></div>
+            <div class="roundel" data-ring="navy" data-bar="red" aria-hidden="true"><i></i><b>A1</b></div><p class="item__tag">Base</p>
             <h3>Base</h3>
             <p>Per chi è alle prime armi o non ha mai studiato inglese.</p>
             <ul class="specs"><li>2 ore a settimana</li><li>Circa 4 mesi</li><li>Libro incluso</li></ul>
             <button class="link" data-course="Corsi di gruppo · Base">Chiedi informazioni →</button>
           </article>
           <article class="item">
-            <div class="cover cover--blue"><span class="cover__top">Corso di gruppo</span><b>B1</b><span class="cover__name">Intermedio</span><i class="cover__bars"></i></div>
+            <div class="roundel" data-ring="blue" data-bar="navy" aria-hidden="true"><i></i><b>B1</b></div><p class="item__tag">Intermedio</p>
             <h3>Intermedio</h3>
             <p>Per chi ha già studiato inglese a scuola o ha seguito un corso base.</p>
             <ul class="specs"><li>2 ore a settimana</li><li>Circa 4 mesi</li><li>Libro incluso</li></ul>
             <button class="link" data-course="Corsi di gruppo · Intermedio">Chiedi informazioni →</button>
           </article>
           <article class="item">
-            <div class="cover cover--red"><span class="cover__top">Corso di gruppo</span><b>C1</b><span class="cover__name">Avanzato</span><i class="cover__bars"></i></div>
+            <div class="roundel" data-ring="red" data-bar="navy" aria-hidden="true"><i></i><b>C1</b></div><p class="item__tag">Avanzato</p>
             <h3>Avanzato</h3>
             <p>Per chi è già competente e vuole fare il salto di qualità.</p>
             <ul class="specs"><li>2 ore a settimana</li><li>Circa 4 mesi</li><li>Libro incluso</li></ul>
@@ -152,21 +164,21 @@
         </header>
         <div class="shelf">
           <article class="item">
-            <div class="cover cover--white"><span class="cover__top">Cambridge English</span><b>A2</b><span class="cover__name">Key</span><i class="cover__bars"></i></div>
+            <div class="roundel" data-ring="red" data-bar="navy" aria-hidden="true"><i></i><b>A2</b></div><p class="item__tag">Key</p>
             <h3>Certificazione A2</h3>
             <p>Per avere una conoscenza della lingua di base solida e certificata.</p>
             <ul class="specs"><li>2–3 ore a settimana</li><li>Circa 9 mesi</li><li>Simulazione d'esame</li></ul>
             <button class="link" data-course="Cambridge · A2">Chiedi informazioni →</button>
           </article>
           <article class="item">
-            <div class="cover cover--blue"><span class="cover__top">Cambridge English</span><b>B1<small>/</small>B2</b><span class="cover__name">Preliminary · First</span><i class="cover__bars"></i></div>
+            <div class="roundel" data-ring="blue" data-bar="navy" aria-hidden="true"><i></i><b>B1/B2</b></div><p class="item__tag">Preliminary · First</p>
             <h3>Certificazione B1/B2</h3>
             <p>Livello intermedio-alto, per motivi personali o di lavoro.</p>
             <ul class="specs"><li>2–3 ore a settimana</li><li>Circa 9 mesi</li><li>Simulazione d'esame</li></ul>
             <button class="link" data-course="Cambridge · B1/B2">Chiedi informazioni →</button>
           </article>
           <article class="item">
-            <div class="cover cover--navy"><span class="cover__top">Cambridge English</span><b>C1<small>/</small>C2</b><span class="cover__name">Advanced · Proficiency</span><i class="cover__bars"></i></div>
+            <div class="roundel" data-ring="navy" data-bar="red" aria-hidden="true"><i></i><b>C1/C2</b></div><p class="item__tag">Advanced · Proficiency</p>
             <h3>Certificazione C1/C2</h3>
             <p>Il livello avanzato, utile per lavorare o studiare all'estero.</p>
             <ul class="specs"><li>2–3 ore a settimana</li><li>Circa 9 mesi</li><li>Simulazione d'esame</li></ul>
@@ -190,21 +202,21 @@
         </header>
         <div class="shelf">
           <article class="item">
-            <div class="cover cover--red"><span class="cover__top">Su misura</span><b>1:1</b><span class="cover__name">Individuale</span><i class="cover__bars"></i></div>
+            <div class="roundel" data-ring="red" data-bar="navy" aria-hidden="true"><i></i><b>1:1</b></div><p class="item__tag">Individuale</p>
             <h3>Corsi individuali</h3>
             <p>Lezioni uno a uno, con programma e orari costruiti sulle tue esigenze.</p>
             <ul class="specs"><li class="price">Da 40 € l'ora</li><li>Orari flessibili</li></ul>
             <button class="link" data-course="Lezioni individuali">Chiedi informazioni →</button>
           </article>
           <article class="item">
-            <div class="cover cover--navy"><span class="cover__top">Su misura</span><b>Team</b><span class="cover__name">Aziende</span><i class="cover__bars"></i></div>
+            <div class="roundel" data-ring="navy" data-bar="red" aria-hidden="true"><i></i><b>Team</b></div><p class="item__tag">Aziende</p>
             <h3>Corsi aziendali</h3>
             <p>Porta l'inglese dei tuoi dipendenti al livello successivo, direttamente in azienda.</p>
             <ul class="specs"><li>Presso la tua sede</li><li>Prezzo su numero di persone e piano</li></ul>
             <button class="link" data-course="Corsi per aziende">Chiedi un preventivo →</button>
           </article>
           <article class="item">
-            <div class="cover cover--blue"><span class="cover__top">Su misura</span><b>Pro</b><span class="cover__name">Professionale</span><i class="cover__bars"></i></div>
+            <div class="roundel" data-ring="blue" data-bar="navy" aria-hidden="true"><i></i><b>Pro</b></div><p class="item__tag">Professionale</p>
             <h3>Inglese professionale</h3>
             <p>Per chi vuole lavorare all'estero o collabora già con aziende internazionali.</p>
             <ul class="specs"><li>Piano sul tuo settore</li><li>Business Certification su richiesta</li></ul>
@@ -272,10 +284,42 @@
   </main>
 
   <footer class="footer">
-    <div class="wrap footer__inner">
-      <img src="assets/img/logo-next-plus.svg" alt="Next Plus" width="96" height="37" class="footer__logo">
-      <p>Next Plus c/o Next School · Via Psaumida 15/A, 97100 Ragusa</p>
-      <nav><a href="https://plus.nextschool.it/blog/">Blog</a><a href="https://nextschool.it">Next School</a><a href="https://nextschool.it/privacy-policy/">Privacy</a></nav>
+    <div class="footer__flag" aria-hidden="true"></div>
+    <div class="wrap footer__grid">
+      <div class="footer__brand">
+        <img src="assets/img/logo-next-plus-white.svg" alt="Next Plus" width="130" height="50">
+        <p>La scuola di inglese per ragazzi e adulti di Next School, a Ragusa. Centro autorizzato per la preparazione agli esami Cambridge.</p>
+      </div>
+      <div>
+        <h4>Corsi</h4>
+        <ul>
+          <li><a href="#gruppo">Corsi di gruppo</a></li>
+          <li><a href="#cambridge">Certificazioni Cambridge</a></li>
+          <li><a href="#su-misura">Lezioni individuali</a></li>
+          <li><a href="#su-misura">Corsi per aziende</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Test gratuiti</h4>
+        <ul>
+          <li><a href="https://forms.gle/g5triKcy4Pm3gtR77" target="_blank" rel="noopener">Test di livello</a></li>
+          <li><a href="https://forms.gle/qGVnaSUfQpB11umS6" target="_blank" rel="noopener">Test Cambridge</a></li>
+          <li><a href="https://plus.nextschool.it/blog/">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contatti</h4>
+        <ul>
+          <li>Via Psaumida 15/A<br>97100 Ragusa</li>
+          <li><a href="tel:+390932080088">+39 0932 080088</a></li>
+          <li><a href="tel:+393276270100">+39 327 627 0100</a></li>
+          <li><a href="mailto:plus@nextschool.it">plus@nextschool.it</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap footer__bottom">
+      <p>© 2026 Next Plus c/o Next School · Ragusa</p>
+      <nav><a href="https://nextschool.it">Next School</a><a href="https://nextschool.it/privacy-policy/">Privacy policy</a></nav>
     </div>
   </footer>
 
