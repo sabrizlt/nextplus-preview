@@ -1,6 +1,6 @@
 /* Next Plus · restyling
    Base bianca, blu del logo (#0D1D66) per testo e contrasto, rosso del logo (#DD2631) come accento per le azioni,
-   un blu più vivo (#2446D8) per il test e le cose secondarie. Font: Barlow, lo stesso del sito attuale. */
+   solo il blu scuro del logo (#0D1D66) e il rosso (#DD2631); il blu acceso delle prime versioni è stato tolto (v5).
 
 :root {
   --navy: #0d1d66;
@@ -416,3 +416,15 @@ h1, h2 { font-weight: 700; }
   .where { background: var(--navy); color: rgba(255,255,255,.85); border-top-color: rgba(255,255,255,.12); }
   .header__actions .btn--red { padding: 9px 16px; font-size: .88rem; }
 }
+
+/* =====================================================================
+   v5 · solo blu scuro e rosso: il blu acceso diventa il blu del logo
+   ===================================================================== */
+:root { --blue: var(--navy); --blue-soft: #eceef7; }
+.btn--blue { background: var(--navy); box-shadow: 0 8px 22px rgba(13,29,102,.25); }
+.btn--blue:hover { background: var(--navy-2); }
+.btn:focus-visible, a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline-color: rgba(13,29,102,.35); }
+.form input:focus, .form select:focus { border-color: var(--navy); }
+.form .check a { color: var(--navy); }
+.nudge { border-color: #d9ddec; }
+.test__menu a:hover { background: var(--blue-soft); }
