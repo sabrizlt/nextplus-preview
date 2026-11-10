@@ -31,7 +31,7 @@
       <div class="header__actions">
         <div class="test" id="test">
           <button class="btn btn--blue btn--sm" aria-expanded="false" aria-controls="test-menu" id="test-btn">
-            <span class="dot"></span>Test di livello
+            Test di livello
             <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M3 4.5 6 7.5 9 4.5"/></svg>
           </button>
           <div class="test__menu" id="test-menu" role="menu">
@@ -70,7 +70,6 @@
 
     <!-- HERO -->
     <section class="hero" data-title="Next Plus">
-      <div class="hero__flag" aria-hidden="true"></div>
       <div class="wrap hero__grid">
         <div class="hero__copy">
           <p class="eyebrow"><span class="eyebrow__line"></span>Scuola di inglese a Ragusa · Centro autorizzato Cambridge</p>
@@ -94,7 +93,7 @@
         </div>
 
         <aside class="hero__card">
-          <div class="roundel roundel--xl" data-ring="red" data-bar="navy" aria-hidden="true"><i></i><b>Next Plus</b></div>
+          <img src="assets/img/logo-next-plus.svg" alt="Next Plus" class="hero__logo" width="180" height="69">
           <ul class="hero__facts">
             <li><b>A2 → C2</b><span>Tutti i livelli Cambridge</span></li>
             <li><b>Madrelingua</b><span>Inglese vero dalla prima lezione</span></li>
@@ -126,21 +125,21 @@
         </header>
         <div class="shelf">
           <article class="item">
-            <div class="roundel" data-ring="navy" data-bar="red" aria-hidden="true"><i></i><b>A1</b></div><p class="item__tag">Base</p>
+            <p class="item__level"><b>A1</b><span>Base</span></p>
             <h3>Base</h3>
             <p>Per chi è alle prime armi o non ha mai studiato inglese.</p>
             <ul class="specs"><li>2 ore a settimana</li><li>Circa 4 mesi</li><li>Libro incluso</li></ul>
             <button class="link" data-course="Corsi di gruppo · Base">Chiedi informazioni →</button>
           </article>
           <article class="item">
-            <div class="roundel" data-ring="blue" data-bar="navy" aria-hidden="true"><i></i><b>B1</b></div><p class="item__tag">Intermedio</p>
+            <p class="item__level"><b>B1</b><span>Intermedio</span></p>
             <h3>Intermedio</h3>
             <p>Per chi ha già studiato inglese a scuola o ha seguito un corso base.</p>
             <ul class="specs"><li>2 ore a settimana</li><li>Circa 4 mesi</li><li>Libro incluso</li></ul>
             <button class="link" data-course="Corsi di gruppo · Intermedio">Chiedi informazioni →</button>
           </article>
           <article class="item">
-            <div class="roundel" data-ring="red" data-bar="navy" aria-hidden="true"><i></i><b>C1</b></div><p class="item__tag">Avanzato</p>
+            <p class="item__level"><b>C1</b><span>Avanzato</span></p>
             <h3>Avanzato</h3>
             <p>Per chi è già competente e vuole fare il salto di qualità.</p>
             <ul class="specs"><li>2 ore a settimana</li><li>Circa 4 mesi</li><li>Libro incluso</li></ul>
@@ -155,7 +154,7 @@
     </section>
 
     <!-- CAMBRIDGE -->
-    <section class="course course--tint" id="cambridge" data-title="Certificazioni Cambridge">
+    <section class="course course--navy" id="cambridge" data-title="Certificazioni Cambridge">
       <div class="wrap">
         <header class="course__head">
           <p class="kicker">02 · Certificazioni Cambridge</p>
@@ -164,21 +163,21 @@
         </header>
         <div class="shelf">
           <article class="item">
-            <div class="roundel" data-ring="red" data-bar="navy" aria-hidden="true"><i></i><b>A2</b></div><p class="item__tag">Key</p>
+            <p class="item__level"><b>A2</b><span>Key</span></p>
             <h3>Certificazione A2</h3>
             <p>Per avere una conoscenza della lingua di base solida e certificata.</p>
             <ul class="specs"><li>2–3 ore a settimana</li><li>Circa 9 mesi</li><li>Simulazione d'esame</li></ul>
             <button class="link" data-course="Cambridge · A2">Chiedi informazioni →</button>
           </article>
           <article class="item">
-            <div class="roundel" data-ring="blue" data-bar="navy" aria-hidden="true"><i></i><b>B1/B2</b></div><p class="item__tag">Preliminary · First</p>
+            <p class="item__level"><b>B1/B2</b><span>Preliminary · First</span></p>
             <h3>Certificazione B1/B2</h3>
             <p>Livello intermedio-alto, per motivi personali o di lavoro.</p>
             <ul class="specs"><li>2–3 ore a settimana</li><li>Circa 9 mesi</li><li>Simulazione d'esame</li></ul>
             <button class="link" data-course="Cambridge · B1/B2">Chiedi informazioni →</button>
           </article>
           <article class="item">
-            <div class="roundel" data-ring="navy" data-bar="red" aria-hidden="true"><i></i><b>C1/C2</b></div><p class="item__tag">Advanced · Proficiency</p>
+            <p class="item__level"><b>C1/C2</b><span>Advanced · Proficiency</span></p>
             <h3>Certificazione C1/C2</h3>
             <p>Il livello avanzato, utile per lavorare o studiare all'estero.</p>
             <ul class="specs"><li>2–3 ore a settimana</li><li>Circa 9 mesi</li><li>Simulazione d'esame</li></ul>
@@ -202,21 +201,21 @@
         </header>
         <div class="shelf">
           <article class="item">
-            <div class="roundel" data-ring="red" data-bar="navy" aria-hidden="true"><i></i><b>1:1</b></div><p class="item__tag">Individuale</p>
+            <p class="item__level"><b>1:1</b><span>Individuale</span></p>
             <h3>Corsi individuali</h3>
             <p>Lezioni uno a uno, con programma e orari costruiti sulle tue esigenze.</p>
             <ul class="specs"><li class="price">Da 40 € l'ora</li><li>Orari flessibili</li></ul>
             <button class="link" data-course="Lezioni individuali">Chiedi informazioni →</button>
           </article>
           <article class="item">
-            <div class="roundel" data-ring="navy" data-bar="red" aria-hidden="true"><i></i><b>Team</b></div><p class="item__tag">Aziende</p>
+            <p class="item__level"><b>Team</b><span>Aziende</span></p>
             <h3>Corsi aziendali</h3>
             <p>Porta l'inglese dei tuoi dipendenti al livello successivo, direttamente in azienda.</p>
             <ul class="specs"><li>Presso la tua sede</li><li>Prezzo su numero di persone e piano</li></ul>
             <button class="link" data-course="Corsi per aziende">Chiedi un preventivo →</button>
           </article>
           <article class="item">
-            <div class="roundel" data-ring="blue" data-bar="navy" aria-hidden="true"><i></i><b>Pro</b></div><p class="item__tag">Professionale</p>
+            <p class="item__level"><b>Pro</b><span>Professionale</span></p>
             <h3>Inglese professionale</h3>
             <p>Per chi vuole lavorare all'estero o collabora già con aziende internazionali.</p>
             <ul class="specs"><li>Piano sul tuo settore</li><li>Business Certification su richiesta</li></ul>
@@ -227,7 +226,7 @@
     </section>
 
     <!-- PERCHÉ NOI -->
-    <section class="why" id="perche" data-title="Perché Next Plus">
+    <section class="why why--red" id="perche" data-title="Perché Next Plus">
       <div class="wrap why__grid">
         <div>
           <p class="kicker kicker--light">04 · Perché Next Plus</p>
@@ -284,7 +283,6 @@
   </main>
 
   <footer class="footer">
-    <div class="footer__flag" aria-hidden="true"></div>
     <div class="wrap footer__grid">
       <div class="footer__brand">
         <img src="assets/img/logo-next-plus-white.svg" alt="Next Plus" width="130" height="50">
