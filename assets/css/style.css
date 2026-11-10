@@ -117,9 +117,9 @@ h3 { font-size: 1.25rem; line-height: 1.25; }
 .hero__badge { width: 150px; }
 
 /* PERCORSO */
-.path { padding: 30px 0 10px; background: var(--tint); }
+.path { padding: 56px 0; background: var(--red); }
 .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-.steps li { display: flex; gap: 16px; padding: 22px; background: #fff; border-radius: var(--r); border: 1px solid var(--line); }
+.steps li { display: flex; gap: 16px; padding: 22px; background: #fff; border-radius: var(--r); }
 .steps li > span { flex: none; width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; font-weight: 700; font-size: 1.1rem; color: #fff; background: var(--navy); }
 .steps li:nth-child(3) > span { background: var(--red); }
 .steps b { color: var(--navy); font-size: 1.1rem; }
@@ -230,11 +230,12 @@ h3 { font-size: 1.25rem; line-height: 1.25; }
   .steps, .shelf { grid-template-columns: 1fr; }
   .item { padding: 22px; }
   .course, .why, .contact { padding: 70px 0; }
+  .path { padding: 40px 0; }
   .nudge { flex-direction: column; align-items: flex-start; border-radius: 22px; padding: 18px 20px; }
   .why__list { grid-template-columns: 1fr; }
   .footer__grid { grid-template-columns: 1fr 1fr; padding: 48px 0 32px; }
   .footer__brand { grid-column: 1 / -1; }
-  body { padding-bottom: 76px; }
+  .footer__bottom { padding-bottom: calc(22px + 76px + env(safe-area-inset-bottom)); }
   .mobilebar { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; padding: 10px 14px calc(10px + env(safe-area-inset-bottom)); background: rgba(255,255,255,.95); backdrop-filter: blur(12px); border-top: 1px solid var(--line); transform: translateY(110%); transition: transform .3s var(--ease); }
   .mobilebar.is-on { transform: none; }
   .mobilebar .btn { padding: 13px; }
